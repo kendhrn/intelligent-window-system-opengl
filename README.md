@@ -79,9 +79,13 @@ make run
 main.cpp     Scene, rendering, animation and input handling
 build.bat    One-click build and run for Windows
 Makefile     Build for Windows (MinGW), Linux and macOS
-docs/        Screenshots
+docs/        Screenshots and design report
 ```
 
 ## Tech
 
 C++ · OpenGL (fixed-function pipeline) · GLU · freeGLUT
+
+## Design report
+
+The [design report](docs/design-report.pdf) covers the concept and research behind the design (including the original hand-drawn sketch), how each part is built, how the climate modes work, and the rendering problems solved along the way.
